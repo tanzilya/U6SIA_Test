@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC9A86D791F310F7563C627 /* libPods-U6SIATests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB9B28EC2A78FAA6800D48F /* libPods-U6SIATests.a */; };
+		93101B7CE13EA2A38785737E /* libPods-U6SIAUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 381644FCBC0E84AC12EAC051 /* libPods-U6SIAUITests.a */; };
+		BD2DA0D021CA336C00583871 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2DA0CF21CA336C00583871 /* MainViewController.m */; };
+		BD2DA0D721CA476C00583871 /* ButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2DA0D621CA476C00583871 /* ButtonView.m */; };
+		BD2DA0DA21CA496400583871 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DA0D921CA496400583871 /* DetailViewController.swift */; };
+		BD2DA0DC21CA755300583871 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DA0DB21CA755300583871 /* MapView.swift */; };
+		BD94B5EF21C97A2300ED4523 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD94B5EE21C97A2300ED4523 /* AppDelegate.m */; };
+		BD94B5F721C97A2500ED4523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD94B5F621C97A2500ED4523 /* Assets.xcassets */; };
+		BD94B5FA21C97A2500ED4523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD94B5F821C97A2500ED4523 /* LaunchScreen.storyboard */; };
+		BD94B5FD21C97A2500ED4523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD94B5FC21C97A2500ED4523 /* main.m */; };
+		BD94B60721C97A2500ED4523 /* U6SIATests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD94B60621C97A2500ED4523 /* U6SIATests.m */; };
+		BD94B61221C97A2500ED4523 /* U6SIAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD94B61121C97A2500ED4523 /* U6SIAUITests.m */; };
+		BD94B62721C97D0A00ED4523 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD94B62621C97D0A00ED4523 /* ApiManager.m */; };
+		BDAF9CE121CB7068008D12B6 /* CountryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF9CE021CB7068008D12B6 /* CountryModel.m */; };
+		BDAF9CE421CB7076008D12B6 /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF9CE321CB7076008D12B6 /* CityModel.m */; };
+		BDAF9CE721CB7085008D12B6 /* UniversityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF9CE621CB7085008D12B6 /* UniversityModel.m */; };
+		BDAF9CEC21CB7395008D12B6 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF9CEB21CB7395008D12B6 /* DataModel.m */; };
+		BDAF9CEF21CB73D4008D12B6 /* SelectViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF9CEE21CB73D4008D12B6 /* SelectViewModel.m */; };
+		BDAF9CF421CB8152008D12B6 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF9CF321CB8152008D12B6 /* DataManager.m */; };
+		BDAF9CF721CB8673008D12B6 /* UniversityInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF9CF621CB8673008D12B6 /* UniversityInfoModel.m */; };
+		BDE3DFF721CA2F3A0042A9E5 /* SelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE3DFF621CA2F3A0042A9E5 /* SelectView.m */; };
+		F969C9F43874973734F702A7 /* libPods-U6SIA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA1E3D7B35CFADF5928639C /* libPods-U6SIA.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD94B60321C97A2500ED4523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD94B5E221C97A2300ED4523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD94B5E921C97A2300ED4523;
+			remoteInfo = U6SIA;
+		};
+		BD94B60E21C97A2500ED4523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD94B5E221C97A2300ED4523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD94B5E921C97A2300ED4523;
+			remoteInfo = U6SIA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B491D0253CB90783F03EB5 /* Pods-U6SIAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U6SIAUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-U6SIAUITests/Pods-U6SIAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		13E886FFABAA52D0C3BF1426 /* Pods-U6SIA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U6SIA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-U6SIA/Pods-U6SIA.debug.xcconfig"; sourceTree = "<group>"; };
+		3274ABCA753EA52C41A2A090 /* Pods-U6SIATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U6SIATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-U6SIATests/Pods-U6SIATests.release.xcconfig"; sourceTree = "<group>"; };
+		381644FCBC0E84AC12EAC051 /* libPods-U6SIAUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-U6SIAUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA1E3D7B35CFADF5928639C /* libPods-U6SIA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-U6SIA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A189D5C1E0CE6A0E1559F9C6 /* Pods-U6SIA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U6SIA.release.xcconfig"; path = "Pods/Target Support Files/Pods-U6SIA/Pods-U6SIA.release.xcconfig"; sourceTree = "<group>"; };
+		BD2DA0CE21CA336C00583871 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BD2DA0CF21CA336C00583871 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BD2DA0D521CA476C00583871 /* ButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonView.h; sourceTree = "<group>"; };
+		BD2DA0D621CA476C00583871 /* ButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonView.m; sourceTree = "<group>"; };
+		BD2DA0D821CA496300583871 /* U6SIA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "U6SIA-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD2DA0D921CA496400583871 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BD2DA0DB21CA755300583871 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BD94B5EA21C97A2300ED4523 /* U6SIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = U6SIA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD94B5ED21C97A2300ED4523 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD94B5EE21C97A2300ED4523 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD94B5F621C97A2500ED4523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD94B5F921C97A2500ED4523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD94B5FB21C97A2500ED4523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD94B5FC21C97A2500ED4523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD94B60221C97A2500ED4523 /* U6SIATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = U6SIATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD94B60621C97A2500ED4523 /* U6SIATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = U6SIATests.m; sourceTree = "<group>"; };
+		BD94B60821C97A2500ED4523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD94B60D21C97A2500ED4523 /* U6SIAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = U6SIAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD94B61121C97A2500ED4523 /* U6SIAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = U6SIAUITests.m; sourceTree = "<group>"; };
+		BD94B61321C97A2500ED4523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD94B62521C97D0A00ED4523 /* ApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiManager.h; sourceTree = "<group>"; };
+		BD94B62621C97D0A00ED4523 /* ApiManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiManager.m; sourceTree = "<group>"; };
+		BDAF9CDF21CB7068008D12B6 /* CountryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryModel.h; sourceTree = "<group>"; };
+		BDAF9CE021CB7068008D12B6 /* CountryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryModel.m; sourceTree = "<group>"; };
+		BDAF9CE221CB7076008D12B6 /* CityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
+		BDAF9CE321CB7076008D12B6 /* CityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
+		BDAF9CE521CB7085008D12B6 /* UniversityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniversityModel.h; sourceTree = "<group>"; };
+		BDAF9CE621CB7085008D12B6 /* UniversityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniversityModel.m; sourceTree = "<group>"; };
+		BDAF9CEA21CB7395008D12B6 /* DataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		BDAF9CEB21CB7395008D12B6 /* DataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		BDAF9CED21CB73D4008D12B6 /* SelectViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectViewModel.h; sourceTree = "<group>"; };
+		BDAF9CEE21CB73D4008D12B6 /* SelectViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectViewModel.m; sourceTree = "<group>"; };
+		BDAF9CF021CB7DD5008D12B6 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		BDAF9CF221CB8152008D12B6 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		BDAF9CF321CB8152008D12B6 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		BDAF9CF521CB8673008D12B6 /* UniversityInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniversityInfoModel.h; sourceTree = "<group>"; };
+		BDAF9CF621CB8673008D12B6 /* UniversityInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniversityInfoModel.m; sourceTree = "<group>"; };
+		BDE3DFF521CA2F3A0042A9E5 /* SelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectView.h; sourceTree = "<group>"; };
+		BDE3DFF621CA2F3A0042A9E5 /* SelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectView.m; sourceTree = "<group>"; };
+		DD770C774D2DCF1BDD7B0CC1 /* Pods-U6SIAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U6SIAUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-U6SIAUITests/Pods-U6SIAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ECB9B28EC2A78FAA6800D48F /* libPods-U6SIATests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-U6SIATests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5ED954650B74A98EDC1666F /* Pods-U6SIATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U6SIATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-U6SIATests/Pods-U6SIATests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD94B5E721C97A2300ED4523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F969C9F43874973734F702A7 /* libPods-U6SIA.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD94B5FF21C97A2500ED4523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC9A86D791F310F7563C627 /* libPods-U6SIATests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD94B60A21C97A2500ED4523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93101B7CE13EA2A38785737E /* libPods-U6SIAUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50AF9BC2235867A70B3371FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FA1E3D7B35CFADF5928639C /* libPods-U6SIA.a */,
+				ECB9B28EC2A78FAA6800D48F /* libPods-U6SIATests.a */,
+				381644FCBC0E84AC12EAC051 /* libPods-U6SIAUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD94B5E121C97A2300ED4523 = {
+			isa = PBXGroup;
+			children = (
+				BD94B5EC21C97A2300ED4523 /* U6SIA */,
+				BD94B60521C97A2500ED4523 /* U6SIATests */,
+				BD94B61021C97A2500ED4523 /* U6SIAUITests */,
+				BD94B5EB21C97A2300ED4523 /* Products */,
+				ED93B901A798278BF9674432 /* Pods */,
+				50AF9BC2235867A70B3371FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD94B5EB21C97A2300ED4523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD94B5EA21C97A2300ED4523 /* U6SIA.app */,
+				BD94B60221C97A2500ED4523 /* U6SIATests.xctest */,
+				BD94B60D21C97A2500ED4523 /* U6SIAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD94B5EC21C97A2300ED4523 /* U6SIA */ = {
+			isa = PBXGroup;
+			children = (
+				BDAF9CF121CB812F008D12B6 /* DataManagers */,
+				BD94B62421C97CF600ED4523 /* API */,
+				BD94B62321C97C8E00ED4523 /* ViewControllers */,
+				BD94B62221C97C8300ED4523 /* ViewModels */,
+				BD94B62121C97C6A00ED4523 /* Models */,
+				BD94B61F21C97C5A00ED4523 /* Views */,
+				BD94B5ED21C97A2300ED4523 /* AppDelegate.h */,
+				BD94B5EE21C97A2300ED4523 /* AppDelegate.m */,
+				BD94B5F621C97A2500ED4523 /* Assets.xcassets */,
+				BD94B5F821C97A2500ED4523 /* LaunchScreen.storyboard */,
+				BD94B5FB21C97A2500ED4523 /* Info.plist */,
+				BD94B5FC21C97A2500ED4523 /* main.m */,
+			);
+			path = U6SIA;
+			sourceTree = "<group>";
+		};
+		BD94B60521C97A2500ED4523 /* U6SIATests */ = {
+			isa = PBXGroup;
+			children = (
+				BD94B60621C97A2500ED4523 /* U6SIATests.m */,
+				BD94B60821C97A2500ED4523 /* Info.plist */,
+			);
+			path = U6SIATests;
+			sourceTree = "<group>";
+		};
+		BD94B61021C97A2500ED4523 /* U6SIAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD94B61121C97A2500ED4523 /* U6SIAUITests.m */,
+				BD94B61321C97A2500ED4523 /* Info.plist */,
+			);
+			path = U6SIAUITests;
+			sourceTree = "<group>";
+		};
+		BD94B61F21C97C5A00ED4523 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDE3DFF521CA2F3A0042A9E5 /* SelectView.h */,
+				BDE3DFF621CA2F3A0042A9E5 /* SelectView.m */,
+				BD2DA0D521CA476C00583871 /* ButtonView.h */,
+				BD2DA0D621CA476C00583871 /* ButtonView.m */,
+				BD2DA0DB21CA755300583871 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD94B62121C97C6A00ED4523 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDAF9CEA21CB7395008D12B6 /* DataModel.h */,
+				BDAF9CEB21CB7395008D12B6 /* DataModel.m */,
+				BDAF9CDF21CB7068008D12B6 /* CountryModel.h */,
+				BDAF9CE021CB7068008D12B6 /* CountryModel.m */,
+				BDAF9CE221CB7076008D12B6 /* CityModel.h */,
+				BDAF9CE321CB7076008D12B6 /* CityModel.m */,
+				BDAF9CE521CB7085008D12B6 /* UniversityModel.h */,
+				BDAF9CE621CB7085008D12B6 /* UniversityModel.m */,
+				BDAF9CF521CB8673008D12B6 /* UniversityInfoModel.h */,
+				BDAF9CF621CB8673008D12B6 /* UniversityInfoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD94B62221C97C8300ED4523 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDAF9CED21CB73D4008D12B6 /* SelectViewModel.h */,
+				BDAF9CEE21CB73D4008D12B6 /* SelectViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BD94B62321C97C8E00ED4523 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD2DA0CE21CA336C00583871 /* MainViewController.h */,
+				BD2DA0CF21CA336C00583871 /* MainViewController.m */,
+				BD2DA0D921CA496400583871 /* DetailViewController.swift */,
+				BD2DA0D821CA496300583871 /* U6SIA-Bridging-Header.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BD94B62421C97CF600ED4523 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BD94B62521C97D0A00ED4523 /* ApiManager.h */,
+				BD94B62621C97D0A00ED4523 /* ApiManager.m */,
+				BDAF9CF021CB7DD5008D12B6 /* Constants.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BDAF9CF121CB812F008D12B6 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				BDAF9CF221CB8152008D12B6 /* DataManager.h */,
+				BDAF9CF321CB8152008D12B6 /* DataManager.m */,
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		ED93B901A798278BF9674432 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13E886FFABAA52D0C3BF1426 /* Pods-U6SIA.debug.xcconfig */,
+				A189D5C1E0CE6A0E1559F9C6 /* Pods-U6SIA.release.xcconfig */,
+				F5ED954650B74A98EDC1666F /* Pods-U6SIATests.debug.xcconfig */,
+				3274ABCA753EA52C41A2A090 /* Pods-U6SIATests.release.xcconfig */,
+				02B491D0253CB90783F03EB5 /* Pods-U6SIAUITests.debug.xcconfig */,
+				DD770C774D2DCF1BDD7B0CC1 /* Pods-U6SIAUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD94B5E921C97A2300ED4523 /* U6SIA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD94B61621C97A2500ED4523 /* Build configuration list for PBXNativeTarget "U6SIA" */;
+			buildPhases = (
+				A652830DC9E9F2821C16FBBF /* [CP] Check Pods Manifest.lock */,
+				BD94B5E621C97A2300ED4523 /* Sources */,
+				BD94B5E721C97A2300ED4523 /* Frameworks */,
+				BD94B5E821C97A2300ED4523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = U6SIA;
+			productName = U6SIA;
+			productReference = BD94B5EA21C97A2300ED4523 /* U6SIA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD94B60121C97A2500ED4523 /* U6SIATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD94B61921C97A2500ED4523 /* Build configuration list for PBXNativeTarget "U6SIATests" */;
+			buildPhases = (
+				561077A7071350A48ECCA42A /* [CP] Check Pods Manifest.lock */,
+				BD94B5FE21C97A2500ED4523 /* Sources */,
+				BD94B5FF21C97A2500ED4523 /* Frameworks */,
+				BD94B60021C97A2500ED4523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD94B60421C97A2500ED4523 /* PBXTargetDependency */,
+			);
+			name = U6SIATests;
+			productName = U6SIATests;
+			productReference = BD94B60221C97A2500ED4523 /* U6SIATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD94B60C21C97A2500ED4523 /* U6SIAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD94B61C21C97A2500ED4523 /* Build configuration list for PBXNativeTarget "U6SIAUITests" */;
+			buildPhases = (
+				C3C659943B3A253297C9F8A9 /* [CP] Check Pods Manifest.lock */,
+				BD94B60921C97A2500ED4523 /* Sources */,
+				BD94B60A21C97A2500ED4523 /* Frameworks */,
+				BD94B60B21C97A2500ED4523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD94B60F21C97A2500ED4523 /* PBXTargetDependency */,
+			);
+			name = U6SIAUITests;
+			productName = U6SIAUITests;
+			productReference = BD94B60D21C97A2500ED4523 /* U6SIAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD94B5E221C97A2300ED4523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tanzilya Yakshimbetova";
+				TargetAttributes = {
+					BD94B5E921C97A2300ED4523 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					BD94B60121C97A2500ED4523 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BD94B5E921C97A2300ED4523;
+					};
+					BD94B60C21C97A2500ED4523 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BD94B5E921C97A2300ED4523;
+					};
+				};
+			};
+			buildConfigurationList = BD94B5E521C97A2300ED4523 /* Build configuration list for PBXProject "U6SIA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD94B5E121C97A2300ED4523;
+			productRefGroup = BD94B5EB21C97A2300ED4523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD94B5E921C97A2300ED4523 /* U6SIA */,
+				BD94B60121C97A2500ED4523 /* U6SIATests */,
+				BD94B60C21C97A2500ED4523 /* U6SIAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD94B5E821C97A2300ED4523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD94B5FA21C97A2500ED4523 /* LaunchScreen.storyboard in Resources */,
+				BD94B5F721C97A2500ED4523 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD94B60021C97A2500ED4523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD94B60B21C97A2500ED4523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		561077A7071350A48ECCA42A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-U6SIATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A652830DC9E9F2821C16FBBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-U6SIA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C659943B3A253297C9F8A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-U6SIAUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD94B5E621C97A2300ED4523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAF9CEF21CB73D4008D12B6 /* SelectViewModel.m in Sources */,
+				BDAF9CF421CB8152008D12B6 /* DataManager.m in Sources */,
+				BDAF9CEC21CB7395008D12B6 /* DataModel.m in Sources */,
+				BDAF9CE121CB7068008D12B6 /* CountryModel.m in Sources */,
+				BDE3DFF721CA2F3A0042A9E5 /* SelectView.m in Sources */,
+				BD94B62721C97D0A00ED4523 /* ApiManager.m in Sources */,
+				BD94B5FD21C97A2500ED4523 /* main.m in Sources */,
+				BDAF9CE421CB7076008D12B6 /* CityModel.m in Sources */,
+				BD2DA0D721CA476C00583871 /* ButtonView.m in Sources */,
+				BD2DA0D021CA336C00583871 /* MainViewController.m in Sources */,
+				BDAF9CE721CB7085008D12B6 /* UniversityModel.m in Sources */,
+				BD94B5EF21C97A2300ED4523 /* AppDelegate.m in Sources */,
+				BD2DA0DC21CA755300583871 /* MapView.swift in Sources */,
+				BD2DA0DA21CA496400583871 /* DetailViewController.swift in Sources */,
+				BDAF9CF721CB8673008D12B6 /* UniversityInfoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD94B5FE21C97A2500ED4523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD94B60721C97A2500ED4523 /* U6SIATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD94B60921C97A2500ED4523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD94B61221C97A2500ED4523 /* U6SIAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD94B60421C97A2500ED4523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD94B5E921C97A2300ED4523 /* U6SIA */;
+			targetProxy = BD94B60321C97A2500ED4523 /* PBXContainerItemProxy */;
+		};
+		BD94B60F21C97A2500ED4523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD94B5E921C97A2300ED4523 /* U6SIA */;
+			targetProxy = BD94B60E21C97A2500ED4523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD94B5F821C97A2500ED4523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD94B5F921C97A2500ED4523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD94B61421C97A2500ED4523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD94B61521C97A2500ED4523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD94B61721C97A2500ED4523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E886FFABAA52D0C3BF1426 /* Pods-U6SIA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = U6SIA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TY.U6SIA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "U6SIA/ViewControllers/U6SIA-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "U6SIA-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BD94B61821C97A2500ED4523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A189D5C1E0CE6A0E1559F9C6 /* Pods-U6SIA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = U6SIA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TY.U6SIA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "U6SIA/ViewControllers/U6SIA-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "U6SIA-Swift.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BD94B61A21C97A2500ED4523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5ED954650B74A98EDC1666F /* Pods-U6SIATests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = U6SIATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TY.U6SIATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/U6SIA.app/U6SIA";
+			};
+			name = Debug;
+		};
+		BD94B61B21C97A2500ED4523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3274ABCA753EA52C41A2A090 /* Pods-U6SIATests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = U6SIATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TY.U6SIATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/U6SIA.app/U6SIA";
+			};
+			name = Release;
+		};
+		BD94B61D21C97A2500ED4523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B491D0253CB90783F03EB5 /* Pods-U6SIAUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = U6SIAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TY.U6SIAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = U6SIA;
+			};
+			name = Debug;
+		};
+		BD94B61E21C97A2500ED4523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD770C774D2DCF1BDD7B0CC1 /* Pods-U6SIAUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = U6SIAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TY.U6SIAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = U6SIA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD94B5E521C97A2300ED4523 /* Build configuration list for PBXProject "U6SIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD94B61421C97A2500ED4523 /* Debug */,
+				BD94B61521C97A2500ED4523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD94B61621C97A2500ED4523 /* Build configuration list for PBXNativeTarget "U6SIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD94B61721C97A2500ED4523 /* Debug */,
+				BD94B61821C97A2500ED4523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD94B61921C97A2500ED4523 /* Build configuration list for PBXNativeTarget "U6SIATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD94B61A21C97A2500ED4523 /* Debug */,
+				BD94B61B21C97A2500ED4523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD94B61C21C97A2500ED4523 /* Build configuration list for PBXNativeTarget "U6SIAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD94B61D21C97A2500ED4523 /* Debug */,
+				BD94B61E21C97A2500ED4523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD94B5E221C97A2300ED4523 /* Project object */;
+}
